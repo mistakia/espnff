@@ -5,6 +5,7 @@ const draft = require('./lib/draft')
 const roster = require('./lib/roster')
 const leaders = require('./lib/leaders')
 const boxscore = require('./lib/boxscore')
+const teams = require('./lib/teams')
 
 module.exports = {
   activity: activity,
@@ -13,5 +14,6 @@ module.exports = {
   schedule: schedule,
   roster: roster,
   leaders: leaders,
-  boxscore: boxscore
+  boxscore: boxscore,
+  teams: teams
 }
