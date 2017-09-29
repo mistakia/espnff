@@ -3,6 +3,7 @@ const standings = require('./lib/standings')
 const schedule = require('./lib/schedule')
 const draft = require('./lib/draft')
 const roster = require('./lib/roster')
+const leaders = require('./lib/leaders')
 const boxscore = require('./lib/boxscore')
 
 module.exports = {
@@ -11,5 +12,6 @@ module.exports = {
   draft: draft,
   schedule: schedule,
   roster: roster,
+  leaders: leaders,
   boxscore: boxscore
 }
