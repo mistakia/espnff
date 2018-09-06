@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "promisify-es6": "^1.0.3",
     "request": "^2.81.0",
     "yargs": "^8.0.2"
   },
