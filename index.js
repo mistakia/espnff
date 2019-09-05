@@ -7,15 +7,17 @@ const leaders = require('./lib/leaders')
 const boxscore = require('./lib/boxscore')
 const teams = require('./lib/teams')
 const player = require('./lib/player')
+const players = require('./lib/players')
 
 module.exports = {
-  activity: activity,
-  standings: standings,
-  draft: draft,
-  schedule: schedule,
-  roster: roster,
-  leaders: leaders,
-  boxscore: boxscore,
-  player: player,
-  teams: teams
+  activity,
+  standings,
+  draft,
+  schedule,
+  roster,
+  leaders,
+  boxscore,
+  player,
+  players,
+  teams
 }
