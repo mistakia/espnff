@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cached-request": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "promisify-es6": "^1.0.3",
     "puppeteer": "^1.19.0",
