@@ -6,7 +6,6 @@ const roster = require('./lib/roster')
 const leaders = require('./lib/leaders')
 const league = require('./lib/league')
 const boxscore = require('./lib/boxscore')
-const teams = require('./lib/teams')
 const player = require('./lib/player')
 const players = require('./lib/players')
 
@@ -20,6 +19,5 @@ module.exports = {
   league,
   boxscore,
   player,
-  players,
-  teams
+  players
 }
